@@ -1,6 +1,6 @@
 # Web3Concurrency
 
-Web3Concurrency is a Swift library built upon [Web3.swift](https://github.com/Boilertalk/Web3.swift) for interacting with Ethereum smart contracts. This library adds support for Swift's structured concurrency.
+Web3Concurrency is a Swift library that adds support for structured concurrency to [Web3.swift](https://github.com/Boilertalk/Web3.swift).
 
 ## Installation
 
