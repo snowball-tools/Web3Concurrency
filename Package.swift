@@ -13,7 +13,7 @@ let package = Package(
             targets: ["Web3Concurrency"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Boilertalk/Web3.swift", from: "0.8.8"),
+        .package(url: "https://github.com/ericlewis/Web3.swift-1", branch: "feature/async"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,8 +21,8 @@ let package = Package(
         .target(
             name: "Web3Concurrency",
             dependencies: [
-                .product(name: "Web3", package: "Web3.swift"),
-                .product(name: "Web3ContractABI", package: "Web3.swift")
+                .product(name: "Web3", package: "Web3.swift-1"),
+                .product(name: "Web3ContractABI", package: "Web3.swift-1")
             ]
         ),
         .testTarget(

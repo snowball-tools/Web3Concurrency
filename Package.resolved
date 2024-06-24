@@ -1,5 +1,5 @@
 {
-  "originHash" : "31c58d6030b657e9f06e629ed4b1993b50f0a670033002a3595e380636c2de11",
+  "originHash" : "4e5d40a17c59e026617b8d297d0fdb87a4620a54ee1e579a52479fbf0ffa74bf",
   "pins" : [
     {
       "identity" : "bigint",
@@ -119,12 +119,12 @@
       }
     },
     {
-      "identity" : "web3.swift",
+      "identity" : "web3.swift-1",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Boilertalk/Web3.swift",
+      "location" : "https://github.com/ericlewis/Web3.swift-1",
       "state" : {
-        "revision" : "b85187ddf230a10b04fa8574c44980f3369ddff5",
-        "version" : "0.8.8"
+        "branch" : "feature/async",
+        "revision" : "8d69135691abc1cf7f1dcacb4628bb984f8911e5"
       }
     },
     {
