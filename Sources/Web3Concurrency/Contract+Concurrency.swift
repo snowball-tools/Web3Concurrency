@@ -1,5 +1,6 @@
 #if canImport(Web3ContractABI)
 
+    @_exported
     import Web3ContractABI
     import Collections
 
